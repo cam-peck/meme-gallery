@@ -12,6 +12,13 @@ header {
   text-align: center;
 }
 
+main {
+  max-width: 960px;
+  margin: 32px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 h1 {
   font-weight: 200;
   letter-spacing: 1px;
@@ -48,4 +55,14 @@ button {
 
 button:hover {
   color: black;
+}
+
+.gallery-image {
+  width: 310px;
+  height: 310px;
+  margin: 5px;
+  border: 6px solid #48494b;
+  border-radius: 3px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  object-fit: cover;
 }
